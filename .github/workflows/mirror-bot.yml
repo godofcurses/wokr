@@ -46,7 +46,7 @@ jobs:
         run: |
           docker run --privileged --rm -i mirror-bot
 
-      - name: Loop WorkfloW
+      - name: Loop Workflow
         continue-on-error: true
         run: |
           # ${GITHUB_REPOSITORY} is the repo slug which runs this script
